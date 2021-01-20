@@ -1,0 +1,26 @@
+.menu {
+  width: auto;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.menu__item {
+  list-style-type: none;
+}
+.menu__href {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 30px 40px;
+  background: #c3f3;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.menu__href:hover {
+  background: #000;
+  color:#fff;
+  transition-duration:0.9s;
+}

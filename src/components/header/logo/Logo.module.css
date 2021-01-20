@@ -1,0 +1,12 @@
+.logo {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  background: #c3f3;
+}
+.logo img {
+  width: 60px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
