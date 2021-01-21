@@ -1,0 +1,19 @@
+.postButton{
+  min-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.postButton__button{
+  margin-top: 15px;
+  background: #c3f3;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 700;
+  border: none;
+}
+.postButton__button:hover {
+  background: #000;
+  color:#fff;
+  transition-duration:0.5s;
+}

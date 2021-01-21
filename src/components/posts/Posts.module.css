@@ -1,3 +1,8 @@
 .posts{
-  
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 90%;
+}
+.posts__title{
+  font-size: 2rem;
 }

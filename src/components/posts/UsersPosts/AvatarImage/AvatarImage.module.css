@@ -1,0 +1,8 @@
+.avatarImage {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: url(https://staging.mevzu.app/image/e6bff4d9e7e74cbeae79cb2ab26109b1/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

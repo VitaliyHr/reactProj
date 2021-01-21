@@ -22,5 +22,5 @@
 .menu__href:hover {
   background: #000;
   color:#fff;
-  transition-duration:0.9s;
+  transition-duration:0.5s;
 }
