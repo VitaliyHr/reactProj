@@ -2,7 +2,7 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  background: url(../../../../static/images/image.png);
+  background: url(../../../../../static/images/image.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

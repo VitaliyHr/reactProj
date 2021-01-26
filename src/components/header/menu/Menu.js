@@ -6,19 +6,19 @@ function Menu () {
     <div className={style.menu}>
         <ul>
           <li className={style.menu__item}>
-            <a href="#1" className={style.menu__href}>Profile</a>
+            <a href="/profile" className={style.menu__href}>Profile</a>
           </li>
           <li className={style.menu__item}>
-            <a href="#2" className={style.menu__href}>Messages</a>
+            <a href="/chat" className={style.menu__href}>Messages</a>
           </li>
           <li className={style.menu__item}>
-            <a href="#3" className={style.menu__href}>News</a>
+            <a href="/news" className={style.menu__href}>News</a>
           </li>
           <li className={style.menu__item}>
-            <a href="#4" className={style.menu__href}>Music</a>
+            <a href="/music" className={style.menu__href}>Music</a>
           </li>
           <li className={style.menu__item}>
-            <a href="#5" className={style.menu__href}>Settings</a>
+            <a href="/settings" className={style.menu__href}>Settings</a>
           </li>
         </ul>
       </div>

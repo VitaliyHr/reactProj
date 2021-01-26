@@ -5,7 +5,9 @@ import style from './Logo.module.css';
 function Logo () {
   return (
     <div className={style.logo}>
+          <a href='/'>
           <img alt="logo" src={logo}></img>
+          </a>
     </div>
   )
 }

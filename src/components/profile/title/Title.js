@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Title.module.css';
-import titleImage from '../../static/images/12_daniel_can_bc-207.jpg'
 
 function Title () {
   return (
