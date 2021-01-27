@@ -7,8 +7,8 @@ import { Route, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <div className="app">
-      <Header/>
       <BrowserRouter>
+        <Header/>
         <Route path='/profile' component={Profile}/>
         <Route path='/chat' component={Chat}/>
       </BrowserRouter>
