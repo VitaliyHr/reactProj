@@ -2,7 +2,7 @@ import react from 'react';
 import { users } from '../Chat';
 
 function getUserById(id) {
-  const [user] = users.filter( u => u.id == id);
+  const [user] = users.filter( u => String(u.id) === String(id));
   return user;
 }
 

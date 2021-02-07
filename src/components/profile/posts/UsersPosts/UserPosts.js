@@ -10,8 +10,6 @@ const posts = [
   "About your work... It's seem to be stupid but...",
 ];
 
-const postsElements = posts.map(p => (<TextPost message={p}/>))
-
 function UserPosts() {
   return (
     <>
@@ -20,7 +18,7 @@ function UserPosts() {
           <>
           <div key={index} className={style.userPosts}>
             <AvatarImage/>
-            {postsElements[index]}
+            <TextPost message={p} />
             <Likes count='5' />
           </div>
           </>
