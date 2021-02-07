@@ -4,6 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+const userData = {
+  name: "Vitaliy",
+  birthday: "29 junary 1999",
+  education: "Higer buisness school. Germany",
+  city: "Kamianets-Podilski",
+  website: "https://staging.mevzu.app",
+};
+
+const posts = [
+  "I have a couple of questions for you",
+  "Kind of?",
+  "About your work... It's seem to be stupid but...",
+]
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

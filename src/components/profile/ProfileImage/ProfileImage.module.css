@@ -1,9 +1,12 @@
 .profileImage{
-  display: flex;
   padding: 30px 0;
   width: 100%;
+  background: url(../../../static/images/12_daniel_can_bc-207.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .profileImage__image{
+  display: block;
   border-radius: 50%;
   width: 300px;
   border: 10px solid #fff;

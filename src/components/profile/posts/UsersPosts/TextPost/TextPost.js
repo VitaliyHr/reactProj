@@ -3,9 +3,9 @@ import style from './TextPost.module.css';
 
 function TextPost(props) {
   return (
-    <div className={style.textPost}>
+    <span className={style.textPost}>
       {props.message}
-    </div>
+    </span>
   );
 }
 

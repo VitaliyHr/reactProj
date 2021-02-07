@@ -1,0 +1,7 @@
+.likes {
+  text-decoration: underline;
+  display: block;
+  width: 80px;
+  margin-top: 50px;
+  flex-wrap: nowrap;
+}
