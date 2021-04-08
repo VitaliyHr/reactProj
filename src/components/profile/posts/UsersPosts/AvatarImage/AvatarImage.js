@@ -1,10 +1,8 @@
-import react from 'react';
+import React from 'react';
 import style from './AvatarImage.module.css';
 
-function AvatarImage() {
+export function AvatarImage() {
   return (
     <div className={style.avatarImage}></div>
   );
 }
-
-export { AvatarImage };

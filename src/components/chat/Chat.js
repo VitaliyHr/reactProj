@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { ChatList } from './chatList/ChatList';
 
 export const users = [
@@ -40,12 +40,10 @@ export const users = [
   },
 ];
 
-function Chat (){
+export function Chat (){
   return (
     <>
       <ChatList users={users}/>
     </>
   );
 }
-
-export { Chat };

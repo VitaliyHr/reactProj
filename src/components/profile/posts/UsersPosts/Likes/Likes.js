@@ -1,10 +1,8 @@
-import react from 'react';
+import React from 'react';
 import style from './Likes.module.css'
 
-function Likes (props) {
+export function Likes (props) {
   return (
     <div className={style.likes}>Likes: {props.count}</div>
   );
 }
-
-export { Likes };

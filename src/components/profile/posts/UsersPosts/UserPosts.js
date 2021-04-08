@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { AvatarImage } from './AvatarImage/AvatarImage';
 import style from './UserPosts.module.css';
 import { TextPost } from './TextPost/TextPost';
@@ -10,7 +10,7 @@ const posts = [
   "About your work... It's seem to be stupid but...",
 ];
 
-function UserPosts() {
+export function UserPosts() {
   return (
     <>
       {posts.map((p, index) => {
@@ -27,5 +27,3 @@ function UserPosts() {
    </>
   );
 }
-
-export { UserPosts };

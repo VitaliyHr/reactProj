@@ -1,7 +1,7 @@
-import react from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function ChatList(props) {
+export function ChatList(props) {
   return (
     <>
       {props.users.map((u, index) => {
@@ -12,5 +12,3 @@ function ChatList(props) {
     </>
   );
 }
-
-export { ChatList };

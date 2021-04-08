@@ -4,7 +4,7 @@ import { ProfileImage } from './ProfileImage/ProfileImage';
 import style from './Profile.module.css';
 import { Posts } from './posts/Posts';
 
-function Profile () {
+export function Profile () {
   return (
     <div className={style.profile}>
       <ProfileImage />
@@ -13,5 +13,3 @@ function Profile () {
     </div>
   );
 }
-
-export { Profile };

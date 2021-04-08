@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../../static/images/768px-Instagram_logo_2016.svg.webp';
 import style from './Logo.module.css';
 
-function Logo () {
+export function Logo () {
   return (
     <div className={style.logo}>
           <a href='/'>
@@ -11,5 +11,3 @@ function Logo () {
     </div>
   )
 }
-
-export { Logo };

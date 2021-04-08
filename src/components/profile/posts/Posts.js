@@ -1,9 +1,9 @@
-import react from 'react';
+import React from 'react';
 import { PostForm } from './PostForm/PostForm';
 import style from './Posts.module.css';
 import { UserPosts } from './UsersPosts/UserPosts';
 
-function Posts() {
+export function Posts() {
   return (
     <div className={style.posts}>
       <h2 className={style.posts__title}>My posts</h2>
@@ -12,5 +12,3 @@ function Posts() {
     </div>
   )
 }
-
-export { Posts };

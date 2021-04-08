@@ -9,7 +9,7 @@ const userData = {
   website: "https://staging.mevzu.app",
 };
 
-function ProfileData () {
+export function ProfileData () {
   return (
     <table className={style.profileData}>
       <tr className={style.profileData__name}>
@@ -30,5 +30,3 @@ function ProfileData () {
     </table>
   );
 }
-
-export { ProfileData };

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import style from './Menu.module.css';
 
-function Menu () {
+export function Menu () {
   return (
     <div className={style.menu}>
         <ul>
@@ -25,5 +25,3 @@ function Menu () {
       </div>
   )
 }
-
-export { Menu };

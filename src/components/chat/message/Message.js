@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import { users } from '../Chat';
 
 function getUserById(id) {
@@ -6,7 +6,7 @@ function getUserById(id) {
   return user;
 }
 
-function Messages (props) {
+export function Messages (props) {
   const user = getUserById(props.match.params.id);
   return (
     <>
@@ -20,5 +20,3 @@ function Messages (props) {
     </>
   );
 }
-
-export { Messages };
