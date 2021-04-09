@@ -11,22 +11,22 @@ const userData = {
 
 export function ProfileData () {
   return (
-    <table className={style.profileData}>
-      <tr className={style.profileData__name}>
-        <td>Name: </td> <td>{userData.name}</td>
-      </tr>
-      <tr className={style.profileData__birth}>
-        <td>Date of birth: </td> <td>{userData.birthday}</td>
-      </tr>
-      <tr className={style.profileData__education}>
-        <td>Education:</td><td> {userData.education}</td>
-      </tr>
-      <tr className={style.profileData__city}>
-        <td>City:</td><td>{userData.city}</td>
-      </tr>
-      <tr className={style.profileData__website}>
-        <td>Website: </td><td><a href={userData.website}>{userData.website}</a></td>
-      </tr>
-    </table>
+    <div className={style.profileData}>
+      <div className={style.profileData__component}>
+        <div className={style.profileData__description}>Name: </div> <div>{userData.name}</div>
+      </div>
+      <div className={style.profileData__component}>
+        <div className={style.profileData__description}>Date of birth: </div> <div>{userData.birthday}</div>
+      </div>
+      <div className={style.profileData__component}>
+        <div className={style.profileData__description}>Education:</div><div> {userData.education}</div>
+      </div>
+      <div className={style.profileData__component}>
+        <div className={style.profileData__description}>City:</div><div>{userData.city}</div>
+      </div>
+      <div className={style.profileData__component}>
+        <div className={style.profileData__description}>Website: </div><div><a href={userData.website}>{userData.website}</a></div>
+      </div>
+    </div>
   );
 }

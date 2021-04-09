@@ -3,14 +3,15 @@
   margin-left: 60px;
   margin: 0 auto;
   padding: 50px 0;
-  /* border: 1px solid #000; */
+  width: auto;
+  border: 1px solid #000;
+  max-width: 450px;
 }
-.profileData td{
-  padding-top: 10px;
-  padding-left: 5px;
+
+.profileData__component{
+  display: flex;
 }
-.profileData__name{}
-.profileData__birth{}
-.profileData__education{}
-.profileData__city{}
-.profileData__website{}
+
+.profileData__description{
+  padding: 0 20px 20px 20px;
+}
