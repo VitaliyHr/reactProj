@@ -5,18 +5,18 @@ import { Chat } from './components/chat/Chat';
 import { Route, BrowserRouter } from 'react-router-dom';
 import { Messages } from './components/chat/message/Message';
 
-const ProfileRender = () => <Profile/>
-const ChatRender = () => <Chat/>
-const MessagesRender = () => <Messages/>
+function App(props) {
+  const ProfileRender = () => <Profile userData={props.userData} posts={props.posts}/>
+  const ChatRender = () => <Chat users={props.users} />
+  const MessagesRender = (properties) => <Messages users={props.users} match={properties.match} />
 
-function App() {
   return (
     <div className="app">
       <BrowserRouter>
         <Header/>
         <Route path='/profile' render={ProfileRender}/>
-        <Route exact='/chat' path='/chat' render={ChatRender}/>
-        <Route path='/chat/:id' component={MessagesRender}/>
+        <Route path='/chat' render={ChatRender}/>
+        <Route path='/chat/:id' render={MessagesRender}/>
       </BrowserRouter>
     </div>
   );

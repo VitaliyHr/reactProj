@@ -4,12 +4,12 @@ import { ProfileImage } from './ProfileImage/ProfileImage';
 import style from './Profile.module.css';
 import { Posts } from './posts/Posts';
 
-export function Profile () {
+export function Profile (props) {
   return (
     <div className={style.profile}>
       <ProfileImage />
-      <ProfileData />
-      <Posts />
+      <ProfileData userData={props.userData} />
+      <Posts posts={props.posts} />
     </div>
   );
 }

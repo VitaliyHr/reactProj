@@ -60,7 +60,7 @@ const users = [
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App userData={userData} posts={posts} users={users} />
   </React.StrictMode>,
   document.getElementById('root')
 );

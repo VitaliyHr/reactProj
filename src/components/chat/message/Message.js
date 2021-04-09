@@ -1,15 +1,15 @@
 import React from 'react';
-import { users } from '../Chat';
 
-function getUserById(id) {
+function getUserById(id, users) {
   const [user] = users.filter( u => String(u.id) === String(id));
   return user;
 }
 
 export function Messages (props) {
-  const user = getUserById(props.match.params.id);
+  console.log(props);
+  const user = getUserById(props.match.params.id, props.users);
   return (
-    <>
+    <div>
      {user.messages.map((m, index) => {
        return (
          <>
@@ -17,6 +17,6 @@ export function Messages (props) {
          </>
        );
      })}
-    </>
+    </div>
   );
 }

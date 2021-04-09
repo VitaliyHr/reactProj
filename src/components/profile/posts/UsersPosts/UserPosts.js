@@ -4,16 +4,10 @@ import style from './UserPosts.module.css';
 import { TextPost } from './TextPost/TextPost';
 import { Likes } from './Likes/Likes';
 
-const posts = [
-  "I have a couple of questions for you",
-  "Kind of?",
-  "About your work... It's seem to be stupid but...",
-];
-
-export function UserPosts() {
+export function UserPosts(props) {
   return (
     <>
-      {posts.map((p, index) => {
+      {props.posts.map((p, index) => {
         return (
           <>
           <div key={index} className={style.userPosts}>
